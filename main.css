@@ -1,0 +1,104 @@
+body,html{
+    margin: 0;
+    height: 100%;
+    background-color: gray;
+}
+
+.header{
+    background-color: gray;
+    height: 10%;
+}
+
+.banner{
+    background: url("img/web.png") center no-repeat;
+    height: 80%;
+    background-color: blanchedalmond;
+}
+
+.name{
+    color: blue;
+}
+
+.header nav{
+    float: right;
+    margin-top: -45px;
+    margin-right: 80px;
+}
+.header h2{
+    margin-left: 120px;
+    color: white;
+    font-size: 1.7rem;
+}
+
+nav .active{
+    color: blue;
+}
+.banner h1{
+     color: blue;
+     text-align: center;
+     padding-top: 5rem;
+     font-size: 3rem;
+}
+.banner p{
+    text-align: center;
+    width: 800px;
+    display: flex;
+    margin: 0 auto 0 auto;
+    padding: 20px;
+    font-size: 25px;
+    background-color: blueviolet;
+    color: white;
+}
+
+nav a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+nav a:hover {
+    color: blueviolet;
+}
+
+.subscribe h3{
+    margin-left: 6rem;
+    color: white;
+}
+.sub .email{
+    float: right;
+    margin-top: -40px;
+    margin-right: 100px;
+}
+
+
+.container{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: auto;
+    margin: 80px 10% 0 10%;
+    grid-gap: 20px;
+}
+.image{
+    width: 100px;
+    display: flex; 
+    margin: 0 auto 0 auto;
+}
+
+.grid{
+    color:white;
+}
+
+.grid-2{
+    width: 98%;
+}
+.grid h3{
+    text-align: center;
+
+}
+.footer{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
