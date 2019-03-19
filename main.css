@@ -12,7 +12,7 @@ body,html{
 .banner{
     background: url("img/web.png") center no-repeat;
     height: 80%;
-    background-color: blanchedalmond;
+    background-color: blue;
 }
 
 .name{
@@ -46,7 +46,7 @@ nav .active{
     margin: 0 auto 0 auto;
     padding: 20px;
     font-size: 25px;
-    background-color: blueviolet;
+    background-color: blue;
     color: white;
 }
 
@@ -57,7 +57,7 @@ nav a{
     font-size: 1.5rem;
 }
 nav a:hover {
-    color: blueviolet;
+    color: blue;
 }
 
 .subscribe h3{
