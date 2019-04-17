@@ -31,6 +31,11 @@ body,html{
     margin-right: 20px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.navbar .burger {
+  display: none;
+}
+
 .name{
     position: absolute;
     color: #66FCF1;
@@ -77,6 +82,8 @@ body,html{
     margin-left: auto;
     padding-top: 20px;
 }
+
+
 
 #about h2 {
     text-align: center;
