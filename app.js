@@ -16,26 +16,6 @@ var currentSlideTwo = 0;
 var slideIntervalTwo = setInterval(nextSlideTwo,5000);
 
 
-window.addEventListener("scroll", function() {
-
-    if(this.pageYOffset > 130) {
-        me.classList.add("animate");
-    }
-    if(this.pageYOffset > 350) {
-        about.classList.add("animate2");
-    }
-    if(this.pageYOffset > 400) {
-        aboutMe.classList.add("animate");
-    }
-    if(this.pageYOffset > 600) {
-        document.getElementById("skills").style("background-color: white;")
-        skills1.classList.add("animate-skills");
-        skills2.classList.add("animate-skills");
-        skills3.classList.add("animate-skills");
-        skills4.classList.add("animate-skills");
-        skills5.classList.add("animate-skills");
-    }
-})
 
 function nextSlide() {
     slides[currentSlide].className = 'slide';
