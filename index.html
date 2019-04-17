@@ -4,53 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Selim Kajolli</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="icon" href="images/pen.jpg">
 </head>
 <body>
-    <div class="header">
-        <h2><span class="name">Selim</span> Web Design</h2>
-        <nav>
-            <a href="#" class="active">Home</a>
-            <a href="html/about.html">About</a>
-            <a href="#">Services</a>
-        </nav>
-    </div>
-    <div class="banner">
-        <h1>Selim Kajolli Professional Web Design </h1>
+    <section id="head"  class="banner">
+        <div class="shade">
+            <div class="navbar">
+                <h3 class="name">@Selim_design</h3>
+                <a class="link" href="#head">Home</a>
+                <a class="link" href="#about">About</a>
+                <a class="link" href="#skills">Skills</a>
+                <a class="link" href="#portofolio">Portofolio</a>
+                <a class="link" href="#footer">Contact</a>
+                <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            </div>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#header"><i class="fas fa-home"></i> Home</a>
+                <a href="#about"><i class="fas fa-user"></i> About</a>
+                <a href="#skills"><i class="fas fa-cogs"></i> Skills</a>
+                <a href="#portofolio"><i class="fas fa-image"></i> Portofolio</a>
+                <a href="#footer" class="space-right"><i class="fas fa-envelope"></i> Contact</a>
+            </div>
+            <div>
+                <h2>Hi! I'm a growing designer!</h2>
+            </div>
+        </div>
+        <div class="title">
+            <h2>Hi! I am a junior graphic designer</h2>
+        </div>
+        
+    </section>
+    <section id="about">
+        <img src="images/icon.jpg" alt="">
+        <h2>About me</h2>
         <p>I am a professional web designer. Based in Albania in a city named Fier .I am studying in a professional school for Web Development in "Petro Sota".I have good knowledge in Adobe Photoshop in creating artwork and modifying images.</p>
-    
-    </div>
-    <div class="sub">
-        <div class="subscribe">
-            <h3>Subscribe</h3>
-            <div class="email"> <input type="email-text" placeholder="Enter your email..."></div>
-        </div>
-        <div class="container">
-            <div class="grid grid-1">
-                <img class="image" src="img/logo-html.png" alt="">
-                <h3>HTML</h3>
-                <p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web.
 
-Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.</p>
+    </section>
+    <section id="skills">
+        <h2 class="skills-title space">These are the skills that I'm good at  </h2><br>
+        <div class="languages">
+            <div class="html lang ">
+                <p class="inside seven ">Photoshop</p>
             </div>
-            <div class="grid grid-2">
-                <img class="image" src="img/css-logo.png" alt="">
-                <h3>CSS</h3>
-                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
-
-CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.</p>   
+            <div class="css lang">
+                <p class="inside one">Adobe Ilistrator</p>
             </div>
-            <div class="grid grid-3">
-                <img class="image" src="img/logo-brush.png" alt="">
-                <h3>Web Design</h3>
-                <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization. Often many individuals will work in teams covering different aspects of the design process, although some designers will cover them all. The term web design is normally used to describe the design process relating to the front-end (client side) design of a website including writing markup. Web design partially overlaps web engineering in the broader scope of web development. Web designers are expected to have an awareness of usability and if their role involves creating markup then they are also expected to be up to date with web accessibility guidelines.</p>
+            <div class="js lang">
+                <p class="inside two">HTML</p>
+            </div>
+            <div class="php lang">
+                <p class="inside three">CSS</p>
+            </div>
+            <div class="sql lang">
+                <p class="inside four">JS</p>
             </div>
         </div>
-    </div>
-    <div class="footer">
-        <h4>Selim Kajolli</h4>
-    </div>
-    
+    </section>
+    <section id="portofolio">
+        <h2 class="porto-title space">This is my little slideshow <span style="color: #66FCF1;">Portofolio</span> </h2><br>
+        
+        <ul id="slides">
+            <li class="slide showing"><img class="slide-image" src="images/img1.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img2.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img3.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img4.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img5.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img6.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img7.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img8.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img9.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img10.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img11.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img12.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img13.jpg" alt=""></li>
+            <li class="slide"><img class="slide-image" src="images/img14.jpg" alt=""></li>
+        </ul>
+    </section>
+    <section id="footer">
+        <h3 class="contact">My E-mail address is down there</h3>
+        <p class="center"><a class="email" href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJZdkLLQrhmjFTDcLQZVKHHXhXxGfrRKPwPCjsTjkwVstgptCDmLDQZkhxtRFGDpqrnwhqB" target="_blank">kajolliselim@gmail.com</a></p>
+        <h3 class="contact">You can also follow him on social media</h3>
+        <nav class="social">
+            <a href="https://www.instagram.com/kt.codes/" target="_blank" ><i class="fab fa-instagram spin"></i></a>
+            <a href="https://github.com/kristiantaraj" target="_blank" ><i class="fab fa-github spin"></i></a>
+            <a href="https://codepen.io/codeMasterIsTaken/" target="_blank" ><i class="fab fa-codepen spin"></i></a>
+        </nav>
+    </section>
+        <script src="app.js"></script>
 </body>
 </html>
