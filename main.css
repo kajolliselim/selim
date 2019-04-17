@@ -395,13 +395,13 @@ body,html{
         
         @media only screen and (max-width: 640px) {
           .about-me {
-            margin: 1rem 3% 0 3% !important; }
+            margin: 1rem 3% 2rem 3% !important; }
           .lang {
             margin: 2.5rem 10% 0 10% !important; }
           .slide-image {
             width: 95% !important; } 
             #about p {
-              width: 70%;
+              width: 80%;
             }
           }
         
